@@ -1,0 +1,15 @@
+{
+    "include": ["src/**/*"],
+    "compilerOptions": {
+        "allowJs": true,
+        "declaration": true,
+        "outDir": "dist",
+        "declarationDir": "@types",
+        "removeComments": true,
+        "baseUrl": ".",
+        "paths": {
+            "~/*": ["src/*"]
+        },
+        "lib": ["ESNext", "DOM"]
+    }
+}

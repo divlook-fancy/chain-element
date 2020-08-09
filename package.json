@@ -1,0 +1,20 @@
+{
+    "name": "create-element",
+    "version": "1.0.0",
+    "main": "dist/main.js",
+    "scripts": {
+        "dev": "tsc -w",
+        "prebuild": "rm -rf @types && rm -rf dist",
+        "build": "tsc"
+    },
+    "repository": "git@github.com:divlook/create-element.git",
+    "author": "uihyeon.cha",
+    "license": "MIT",
+    "directories": {
+        "lib": "dist"
+    },
+    "dependencies": {
+        "is-dom": "^1.1.0",
+        "typescript": "^3.9.7"
+    }
+}
