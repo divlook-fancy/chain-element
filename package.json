@@ -3,9 +3,9 @@
     "version": "1.0.0",
     "main": "dist/main.js",
     "scripts": {
-        "dev": "tsc -w",
+        "dev": "ttsc -w",
         "prebuild": "rm -rf @types && rm -rf dist",
-        "build": "tsc"
+        "build": "ttsc"
     },
     "repository": "git@github.com:divlook/create-element.git",
     "author": "uihyeon.cha",
@@ -15,6 +15,8 @@
     },
     "dependencies": {
         "is-dom": "^1.1.0",
-        "typescript": "^3.9.7"
+        "ttypescript": "^1.5.10",
+        "typescript": "^3.9.7",
+        "typescript-transform-paths": "^2.0.0"
     }
 }
