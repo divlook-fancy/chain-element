@@ -1,11 +1,13 @@
 {
     "include": ["src/**/*"],
     "compilerOptions": {
+        "target": "ESNext",
         "allowJs": true,
         "declaration": true,
         "outDir": "dist",
         "declarationDir": "@types",
         "removeComments": true,
+        "allowSyntheticDefaultImports": true,
         "baseUrl": ".",
         "paths": {
             "~/*": ["src/*"]
