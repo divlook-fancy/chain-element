@@ -11,7 +11,7 @@
     "author": "uihyeon.cha",
     "license": "MIT",
     "directories": {
-        "lib": "dist"
+        "lib": "src"
     },
     "dependencies": {
         "is-dom": "^1.1.0",
