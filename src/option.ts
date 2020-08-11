@@ -1,9 +1,26 @@
 import { Instance } from '~/instance.ts'
 
 // TODO: 미완성
-export interface Option {
-    readonly parent: Instance
-    readonly childs: Instance[]
-    readonly styles: []
-    readonly attrs: []
+export class Option {
+    #parent: Option = null
+    #childs = new Set<Instance>()
+    #styles = new Set<Option>()
+    #attrs = new Set<Option>()
+
+    get parent(): Option {
+        return this.#parent
+    }
+    set parent(parent: Option) {
+        // TODO: Instance가 아니면 실행 거부
+        this.#parent = parent
+    }
+    get childs(): Set<Instance> {
+        return this.#childs
+    }
+    get styles(): Set<Option> {
+        return this.#styles
+    }
+    get attrs(): Set<Option> {
+        return this.#attrs
+    }
 }
