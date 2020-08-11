@@ -1,4 +1,4 @@
-import * as isDom from 'is-dom'
+import isDom from 'is-dom'
 import { Instance } from '~/instance.ts'
 
 export interface Mount {
