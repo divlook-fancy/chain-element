@@ -5,6 +5,8 @@ export interface CreateElement{
 }
 
 // TODO: 미완성
-export const createElement = (elementName: string) => {
-    return elementName
+export const createElement: CreateElement = (elementName: string) => {
+    let instance!:Instance
+
+    return instance
 }
