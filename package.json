@@ -14,6 +14,7 @@
         "lib": "src"
     },
     "dependencies": {
+        "@types/is-dom": "^1.1.0",
         "is-dom": "^1.1.0",
         "ttypescript": "^1.5.10",
         "typescript": "^3.9.7",

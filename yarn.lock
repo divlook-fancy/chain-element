@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@types/is-dom@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@types/is-dom/-/is-dom-1.1.0.tgz#01133cbff85c3fa48135af21f1ecd515e6dee9bb"
+  integrity sha512-cknkU5gb3Z0upT/mX+UAa+282RuS+jlmB0MGU9/uaqP7Jtg5pvbxki/8O9JoDs8oVkIahp6cv4zfIyjJdqHKXQ==
+
 is-dom@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/is-dom/-/is-dom-1.1.0.tgz#af1fced292742443bb59ca3f76ab5e80907b4e8a"
