@@ -1,4 +1,4 @@
-import { Option } from '~/option.ts'
+import { Option } from '~/core/option'
 
 export interface Instance extends Option {
     use(...option: Option[]): Instance

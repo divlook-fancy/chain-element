@@ -1,4 +1,4 @@
-import { Option } from '~/option.ts'
+import { Option } from '~/core/option'
 
 /**
  * 옵션들을 하나로 조합

@@ -1,9 +1,7 @@
-export { createElement } from '~/create-element.ts'
+export { createElement } from '~/core/create-element'
 
-export { mount } from '~/mount.ts'
+export { mount } from '~/core/mount'
 
-export { compose } from '~/compose.ts'
+export { compose } from '~/core/compose'
 
-export * from '~/actions.ts'
-
-export default createElement
+export * from '~/core/actions'

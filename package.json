@@ -1,11 +1,11 @@
 {
     "name": "create-element",
     "version": "1.0.0",
-    "main": "dist/main.js",
+    "main": "dist/chain-element.main.js",
     "scripts": {
-        "dev": "ttsc -w",
-        "prebuild": "rm -rf @types && rm -rf dist",
-        "build": "ttsc"
+        "start": "npx serve -l 3000 dist",
+        "build": "npx webpack --mode production",
+        "dev": "npx webpack-dev-server --mode development"
     },
     "repository": "git@github.com:divlook/create-element.git",
     "author": "uihyeon.cha",
@@ -14,10 +14,17 @@
         "lib": "src"
     },
     "dependencies": {
-        "@types/is-dom": "^1.1.0",
         "is-dom": "^1.1.0",
-        "ttypescript": "^1.5.10",
+        "serve": "^11.3.2"
+    },
+    "devDependencies": {
+        "@types/is-dom": "^1.1.0",
+        "clean-webpack-plugin": "^3.0.0",
+        "html-webpack-plugin": "^4.3.0",
+        "ts-loader": "^8.0.3",
         "typescript": "^3.9.7",
-        "typescript-transform-paths": "^2.0.0"
+        "webpack": "^4.44.1",
+        "webpack-cli": "^3.3.12",
+        "webpack-dev-server": "^3.11.0"
     }
 }

@@ -1,24 +1,23 @@
 {
     "include": ["src/**/*"],
+    "exclude": ["node_modules"],
     "compilerOptions": {
-        "target": "ESNext",
+        "target": "ES2018",
         "allowJs": true,
-        "declaration": true,
-        "outDir": "dist",
-        "declarationDir": "@types",
-        "removeComments": true,
         "allowSyntheticDefaultImports": true,
         "baseUrl": ".",
         "paths": {
             "~/*": ["src/*"]
         },
-        "lib": ["ESNext", "DOM"],
-        "plugins": [
-            { "transform": "typescript-transform-paths" },
-            {
-                "transform": "typescript-transform-paths",
-                "afterDeclarations": true
-            }
-        ]
+        "lib": [
+            "ESNext",
+            "DOM",
+            "ES2020",
+            "ES2019",
+            "ES2018",
+            "ES2017",
+            "ES2016",
+            "ES2015"
+        ],
     }
 }

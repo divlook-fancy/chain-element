@@ -1,4 +1,4 @@
-import { Instance } from '~/instance.ts'
+import { Instance } from '~/core/instance'
 
 export interface CreateElement{
     (elementName: string): Instance

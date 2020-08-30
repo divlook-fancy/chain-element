@@ -1,4 +1,4 @@
-import { Instance } from '~/instance.ts'
+import { Instance } from '~/core/instance'
 
 export namespace Option {
     export type Style = Partial<CSSStyleDeclaration>

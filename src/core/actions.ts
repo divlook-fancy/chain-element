@@ -1,4 +1,4 @@
-import { Option } from '~/option.ts'
+import { Option } from '~/core/option'
 
 // TODO: 미완성
 export const addStyle = (style: Option.Style) => {

@@ -1,5 +1,5 @@
 import isDom from 'is-dom'
-import { Instance } from '~/instance.ts'
+import { Instance } from '~/core/instance'
 
 export interface Mount {
     (selector: string, instance: Instance): Promise<void>
