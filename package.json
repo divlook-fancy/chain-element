@@ -1,5 +1,5 @@
 {
-    "name": "create-element",
+    "name": "chain-element",
     "version": "1.0.0",
     "main": "dist/chain-element.main.js",
     "scripts": {
@@ -7,7 +7,7 @@
         "build": "npx webpack --mode production",
         "dev": "npx webpack-dev-server --mode development"
     },
-    "repository": "git@github.com:divlook/create-element.git",
+    "repository": "git@github.com:divlook/chain-element.git",
     "author": "uihyeon.cha",
     "license": "MIT",
     "directories": {

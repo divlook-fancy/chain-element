@@ -2,7 +2,7 @@ version: "3"
 services:
     app:
         image: "divlook/node:v1.0.2"
-        container_name: "create-element"
+        container_name: "chain-element"
         network_mode: "bridge"
         ports: ['3000']
         volumes: [".:/app"]

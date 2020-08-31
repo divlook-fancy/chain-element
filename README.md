@@ -9,8 +9,8 @@
 ### Default
 
 ```js
-import { createElement, mount } from '@divlook/create-element'
-import { addStyle } from '@divlook/create-element/action'
+import { createElement, mount } from '@divlook/chain-element'
+import { addStyle } from '@divlook/chain-element/action'
 
 const black = addStyle({ color: '#000' })
 const app = createElement('div').use(black)
@@ -25,8 +25,8 @@ app.toString()
 ### Compose
 
 ```js
-import { createElement, compose } from '@divlook/create-element'
-import { addStyle } from '@divlook/create-element/action'
+import { createElement, compose } from '@divlook/chain-element'
+import { addStyle } from '@divlook/chain-element/action'
 
 const white = addStyle({ color: '#fff' })
 const bold = addStyle({ textWeight: 600 })
